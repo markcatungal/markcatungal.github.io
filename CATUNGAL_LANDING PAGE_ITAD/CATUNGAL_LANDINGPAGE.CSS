@@ -1,0 +1,50 @@
+body{
+	text-align:center;
+	margin:60px;
+	background-color:#F2EDD7FF;
+	width: 	1380px;
+    height: 600px;
+	border: 10px ridge;
+	border-radius: 100px;
+	border-color: #9A7B4F;
+}
+
+p{
+	font-family: 'Shadows Into Light', cursive;
+	text-align: center;
+	font-size: 80px;
+	margin-top: 23%;
+	color: #867b70;
+	transform: rotate(-3deg);
+}
+
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  background-color: #867b70;
+  position: absolute;
+  top: 30%;
+  left: 22%;
+  }
+
+li {
+  float: left;
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 50px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+a{
+	font-size: 25px;
+}
