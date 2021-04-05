@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html  lang="en">
+<head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<base target = "newSpace" />
+    <meta charset="utf-8" >
+    <title>Beautiful Places</title>
+<script language = "JavaScript">
+		function writeText(txt){
+			document.getElementById("desc").innerHTML=txt;
+	}		
+		
+		function dissolveText(txt){
+			document.getElementById("desc").innerHTML=txt;
+		}
+</script>
+    <style type="text/css">
+    body{
+			background-color: #F2EDD7FF;
+			text-align:center;
+		}
+		h1{
+			font-family: 'Shadows Into Light', cursive;
+			font-size: 60px;
+			text-align: center;
+			background-color:#867b70;
+			text-transform: uppercase;	
+		}
+		p#desc{
+			font-family: Tahoma;
+			font-size:30px;	
+			color:black;
+			text-align:center;
+		}
+    </style>
+</head>
+<body>
+    <!--Catungal, Mark Angelo-->
+    <!--04.03.2021-->
+    
+		<h1> Places I want to explore</h1>
+	<div align="center">
+		<img src = "imagemaps.jpg" usemap = "#touristSpots">
+		<map name="touristSpots">
+		
+			<area shape = "circle" coords = "257,207,169" href = "CATUNGAL_HTML_FOLDER/CATUNGAL_Palawan_ITAD.html" onMouseOver= "writeText('Philippines’ Last Frontier and Philippines’ Best Island');" onMouseOut = "dissolveText('');" />
+			
+			<area shape = "circle" coords = "255,601,167" href = "CATUNGAL_HTML_FOLDER/CATUNGAL_Boracay_ITAD.html" onMouseOver= "writeText('The Perfect Paradise Island');" onMouseOut = "dissolveText('');" />
+			
+			<area shape = "rect" coords ="563,25,933,226" href= "CATUNGAL_HTML_FOLDER/CATUNGAL_Cebu_ITAD.html" onMouseOver= "writeText('Queen City of the South');" onMouseOut = "dissolveText('');" />
+			
+			<area shape = "poly" coords ="623,310,639,307,659,286,676,289,682,283,715,286,747,284,766,288,772,295,804,289,814,294,819,288,833,293,884,282,902,287,907,503,898,516,896,515,844,500,828,494,820,504,800,503,778,513,748,518,736,522,722,515,707,512,694,514,688,519,665,521,639,507,632,510,624,501,622,491" href = "CATUNGAL_HTML_FOLDER/CATUNGAL_Bohol_ITAD.html" onMouseOver= "writeText('Heart of the Islands');" onMouseOut = "dissolveText('');" />
+			
+			<area shape = "rect" coords ="574,573,946,775" href= "CATUNGAL_HTML_FOLDER/CATUNGAL_Batanes_ITAD.html" onMouseOver= "writeText('Home of the Winds');" onMouseOut = "dissolveText('');" />
+			
+		</map>
+	</div>
+	
+	<p id= "desc"> </p>
+</body>
+</html>

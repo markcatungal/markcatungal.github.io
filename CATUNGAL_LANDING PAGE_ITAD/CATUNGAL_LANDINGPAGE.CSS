@@ -26,8 +26,8 @@ ul {
   padding: 0;
   background-color: #867b70;
   position: absolute;
-  top: 15%;
-  left:30%;
+  top: 30%;
+  left:11%;
   }
 
 li {
@@ -47,5 +47,5 @@ li a:hover {
 }
 
 a{
-	font-size: 20px;
+	font-size: 22px;
 }
