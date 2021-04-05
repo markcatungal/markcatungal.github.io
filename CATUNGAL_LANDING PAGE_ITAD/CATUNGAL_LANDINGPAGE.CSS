@@ -7,6 +7,7 @@ body{
 	border: 10px ridge;
 	border-radius: 100px;
 	border-color: #9A7B4F;
+	
 }
 
 p{
@@ -25,8 +26,8 @@ ul {
   padding: 0;
   background-color: #867b70;
   position: absolute;
-  top: 30%;
-  left: 22%;
+  top: 15%;
+  left:30%;
   }
 
 li {
@@ -46,5 +47,5 @@ li a:hover {
 }
 
 a{
-	font-size: 25px;
+	font-size: 20px;
 }
