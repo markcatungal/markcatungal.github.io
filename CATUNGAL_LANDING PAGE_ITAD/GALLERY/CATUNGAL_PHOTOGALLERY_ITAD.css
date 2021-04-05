@@ -1,0 +1,289 @@
+body{
+	background-color: #F2EDD7FF;
+}
+h1{
+	font-size: 53px;
+	text-align: center;
+	font-family: 'Shadows Into Light', cursive;
+	text-transform:uppercase;
+	background-color: #867b70;
+	color:white;
+}
+h2{
+	font-size: 80px;
+	text-align: center;
+	font-family: 'Shadows Into Light', cursive;
+	text-transform:uppercase;
+	background-color: #867b70;
+	color:white;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  background-color:  #867b70;
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  }
+
+li {
+  float: left;
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 50px;
+  text-decoration: none;
+  font-size: 50px;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+a{
+	font-size:30px;
+}
+
+.home{
+	background-color:#F2EDD7FF;
+}
+.fam1{
+	float:left;
+	width: 250px;
+	height:330px;
+	margin-top:180px;
+	margin-left:40px;
+	border: 12px inset #C1A27E;
+}
+.fam5{
+	float:right;
+	width: 250px;
+	height:330px;
+	margin-top:180px;
+	margin-right:40px;
+	border: 12px inset #C1A27E;
+}
+.fam3{
+	float:right;
+	width: 250px;
+	height:330px;
+	border: 12px inset #C1A27E;
+}
+.fam4{
+	float:left;
+	width: 250px;
+	height:330px;
+	border: 12px inset #C1A27E;
+}
+.fam2{
+	width: 250px;
+	height:180px;
+	border: 12px outset #C1A27E;
+}
+.fam6{
+	width: 250px;
+	height:180px;
+	border: 12px outset #C1A27E;
+}
+.fam7{
+	width: 250px;
+	height:180px;
+	border: 12px outset #C1A27E;
+}
+
+.friends{
+	background-color:#F2EDD7FF;
+}
+.frnds1{
+	float:right;
+	width: 250px;
+	height:330px;
+	margin-top:180px;
+	margin-left:30px;
+	border: 12px outset #C1A27E;
+}
+.frnds2{
+	float:left;
+	width: 250px;
+	height:330px;
+	margin-top:180px;
+	margin-right:30px;
+	border: 12px outset #C1A27E;
+}
+.frnds3{
+	float:left;
+	width: 250px;
+	height:330px;
+	margin-right:30px;
+	border: 12px outset #C1A27E;
+	
+}
+.frnds4{
+	float:right;
+	width: 250px;
+	height:330px;
+	margin-left:30px;
+	border: 12px outset #C1A27E;
+	
+}
+.frnds5{
+	margin-top: 80px;
+	width: 240px;
+	border: 12px inset #C1A27E;
+}
+.frnds6{
+	width: 240px;
+	border: 12px inset #C1A27E;
+}
+.frnds7{
+	width: 240px;
+	height:280px;
+	border: 12px inset #C1A27E;
+}
+.selfies{
+	background-color:#F2EDD7FF;
+}
+.self1{
+	width:250px;
+	height:180px;
+	border: 12px inset #C1A27E;
+}
+.self2{
+	float:right;
+	width: 250px;
+	height:330px;
+	margin-left:30px;
+	border: 12px inset #C1A27E;	
+}
+.self3{
+	float:right;
+	width: 250px;
+	height:330px;
+	margin-top:180px;
+	margin-left:30px;
+	border: 12px inset #C1A27E;
+}
+.self4{
+	float:left;
+	width: 250px;
+	height:330px;
+	margin-top:180px;
+	margin-right:30px;
+	border: 12px inset #C1A27E;
+}
+.self5{
+	float:left;
+	width: 250px;
+	height:330px;
+	margin-right:30px;
+	border: 12px outset #C1A27E;
+}
+.self6{
+	width: 250px;
+	height:180px;
+	border: 12px outset #C1A27E;
+}
+.self7{
+	width: 250px;
+	height:180px;
+	border: 12px outset #C1A27E;
+}
+
+.posters{
+	background-color:#F2EDD7FF;
+}
+.pstrs1{
+	float:left;
+	width: 250px;
+	height:330px;
+	margin-right:30px;
+	border: 12px inset #C1A27E;
+}
+.pstrs5{
+	float:right;
+	width: 250px;
+	height:330px;
+	margin-right:30px;
+	border: 12px inset #C1A27E;
+}
+.pstrs3{
+	float:right;
+	width: 250px;
+	height:330px;
+	border: 12px inset #C1A27E;
+}
+.pstrs4{
+	float:left;
+	width: 250px;
+	height:330px;
+	border: 12px inset #C1A27E;
+}
+.pstrs2{
+	width: 250px;
+	height:180px;
+	border: 12px outset #C1A27E;
+}
+.pstrs6{
+	width: 250px;
+	height:180px;
+	border: 12px outset #C1A27E;
+}
+.pstrs7{
+	width: 250px;
+	height:180px;
+	border: 12px outset #C1A27E;
+}
+
+.films{
+	background-color:#F2EDD7FF;
+}
+.flm1{
+	width:250px;
+	height:180px;
+	border: 12px outset #C1A27E;
+}
+.flm2{
+	float:right;
+	width: 250px;
+	height:330px;
+	margin-top:180px;
+	margin-left:30px;
+	border: 12px inset #C1A27E;	
+}
+.flm3{
+	float:right;
+	width: 250px;
+	height:330px;
+	margin-left:30px;
+	border: 12px inset #C1A27E;
+}
+.flm4{
+	float:left;
+	width: 250px;
+	height:330px;
+	margin-top:180px;
+	margin-right:30px;
+	border: 12px inset #C1A27E;
+}
+.flm5{
+	float:left;
+	width: 250px;
+	height:330px;
+	margin-right:30px;
+	border: 12px inset #C1A27E;
+}
+.flm6{
+	width: 250px;
+	height:180px;
+	border: 12px outset #C1A27E;
+}
+.flm7{
+	width: 250px;
+	height:180px;
+	border: 12px outset #C1A27E;
+
+}
+
